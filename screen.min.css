@@ -250,10 +250,11 @@ body{
 
 .page-header__logo{
   float:left;
-  height:50px;
+  height:auto;
   margin:25px 0 0 40px;
   padding:5px 0 0 65px;
-  background:url('A.png') 0 center no-repeat
+  background:url('A.png') 0 center no-repeat;
+  background-size: contain;
 }
 
 .page-header__logo h1{

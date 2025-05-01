@@ -598,7 +598,9 @@ body{
   font-size:14px;
   font-weight:400;
   margin-bottom:45px;
-  color:#fff
+  color:#fff;
+  padding: 10px;
+  box-sizing: border-box
 }
 
 .team__member{

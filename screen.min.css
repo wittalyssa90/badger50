@@ -72,9 +72,10 @@ body{
 }
 
 .contact__inner:after{
-  content:'';
-  display:table;
-  clear:both
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
 }
 
 .contact__title{
@@ -93,10 +94,9 @@ body{
 }
 
 .contact__form{
-  display:block;
-  float:left;
-  max-width:465px;
-  margin:0 15px 0 40px
+  flex: 1 1 60%;
+  max-width: 500px;
+  margin: 0;
 }
 
 .contact__form:after{
@@ -136,7 +136,7 @@ body{
 
 .contact__form-submit{
   display:block;
-  float:right;
+  align-self: flex-end;
   width:115px;
   height:35px;
   text-align:center;
@@ -154,9 +154,11 @@ body{
 }
 
 .contact__card{
-  display:inline-block;
-  width:230px;
-  height:150px
+  flex: 1 1 30%;
+  max-width: 300px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .contact__card-title{
